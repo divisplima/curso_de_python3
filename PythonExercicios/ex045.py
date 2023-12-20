@@ -24,7 +24,6 @@ print("KEN")
 sleep(1)
 print("PÔ!")
 
-
 if user_choice == computer_choice:
     print("Empate!")
 elif (user_choice == 1 and computer_choice == 3) or (user_choice == 2 and computer_choice == 1) or (user_choice == 3 and computer_choice == 2):
