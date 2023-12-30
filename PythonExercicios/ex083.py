@@ -3,7 +3,7 @@ Crie um programa onde o usuário digite uma expressão qualquer que use parênte
 analisar se a expressão passada está com os parêntesis abertos e fechados na ordem correta.
 """
 expression = input("Digite uma expressão: ")
-stack = []
+stack = list()
 
 valid_expression = True  # Variável booleana para rastrear a validade da expressão
 
