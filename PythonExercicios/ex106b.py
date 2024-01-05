@@ -42,10 +42,10 @@ def main():
     while True:
         command = input("Função ou biblioteca (ou 'FIM' para encerrar): ")
         
-        if command.upper() == 'FIM':
-            break
-        else:
+        if command.upper() != 'FIM':
             ajuda(command)
+        else:
+            break
 
     titulo("FIM DO PROGRAMA", cor=1)
 
